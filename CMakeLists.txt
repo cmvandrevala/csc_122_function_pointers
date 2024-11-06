@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.15)
+
+project("Function Pointers")
+
+set (CMAKE_CXX_STANDARD 14)
+
+add_executable(1_regular_function 1_regular_function.cpp)
+add_executable(2_simple_function_pointer 2_simple_function_pointer.cpp)
+add_executable(3_function_pointer_with_return 3_function_pointer_with_return.cpp)
+add_executable(4_c_array_of_functions 4_c_array_of_functions.cpp)
+add_executable(5_cpp_array_of_functions 5_cpp_array_of_functions.cpp)
+add_executable(6_wrapper_function 6_wrapper_function.cpp)
+add_executable(7_two_callbacks 7_two_callbacks.cpp)
+add_executable(8_cpp_sort_declared_function 8_cpp_sort_declared_function.cpp)
+add_executable(9_cpp_sort_anonymous_function 9_cpp_sort_anonymous_function.cpp)

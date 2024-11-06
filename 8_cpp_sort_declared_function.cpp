@@ -53,12 +53,12 @@ int main()
   // sort(ramen_restaurants.begin(), ramen_restaurants.end());
 
   // This works
-  // sort(ramen_restaurants.begin(), ramen_restaurants.end(), ramen_sorter);
+  sort(ramen_restaurants.begin(), ramen_restaurants.end(), ramen_sorter);
 
-  // for (array<Restaurant, 3>::iterator ramen_iterator = ramen_restaurants.begin(); ramen_iterator != ramen_restaurants.end(); ++ramen_iterator)
-  // {
-  //   cout << ramen_iterator->name() << '\t' << ramen_iterator->rating() << endl;
-  // }
+  for (array<Restaurant, 3>::iterator ramen_iterator = ramen_restaurants.begin(); ramen_iterator != ramen_restaurants.end(); ++ramen_iterator)
+  {
+    cout << ramen_iterator->name() << '\t' << ramen_iterator->rating() << endl;
+  }
 
   return 0;
 }

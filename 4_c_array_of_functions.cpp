@@ -19,7 +19,7 @@ int multiply_numbers(int a, int b)
 
 int main()
 {
-  int (*my_array[])(int, int) = {add_numbers, subtract_numbers, multiply_numbers};
+  int (*my_array[])(int, int) = {&add_numbers, &subtract_numbers, &multiply_numbers};
 
   // We can print out the result of each function!
   cout << (*my_array[0])(1, 5) << endl;
